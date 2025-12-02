@@ -103,7 +103,7 @@ export const FormSection: React.FC = () => {
       </div>
 
       {/* Form Container - Visually appears FIRST on mobile due to flex-col-reverse */}
-      <form id="signup-form" onSubmit={handleSubmit} className="w-full max-w-md bg-dark-card/50 backdrop-blur-sm border border-white/5 rounded-2xl p-6 md:p-8 shadow-2xl relative overflow-hidden group mb-0 md:mb-8">
+      <form id="signup-form" onSubmit={handleSubmit} className="animate-float w-full max-w-md bg-dark-card/50 backdrop-blur-sm border border-white/5 rounded-2xl p-6 md:p-8 shadow-2xl relative overflow-hidden group mb-0 md:mb-8">
         
         {/* Subtle glow effect on form hover */}
         <div className="absolute -inset-1 bg-gradient-to-r from-cyan-brand/20 to-transparent opacity-0 group-hover:opacity-10 transition-opacity duration-500 blur-xl"></div>

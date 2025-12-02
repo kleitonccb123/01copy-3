@@ -7,10 +7,10 @@ export const VideoSection: React.FC = () => {
     <div className="w-full flex flex-col items-center justify-center">
       
       {/* Laptop Container - Increased Size */}
-      <div className="w-full relative z-10 transform lg:scale-110 origin-center transition-transform duration-500">
+      <div className="w-full relative z-10 transform lg:scale-125 origin-center transition-transform duration-500">
         <MacBookFrame>
           <iframe
-            src="https://player.vimeo.com/video/1140514322?autoplay=1&muted=1&title=0&byline=0&portrait=0"
+            src="https://player.vimeo.com/video/1140514322?autoplay=1&muted=0&title=0&byline=0&portrait=0"
             className="w-full h-full object-cover"
             frameBorder="0"
             allow="autoplay; fullscreen; picture-in-picture"

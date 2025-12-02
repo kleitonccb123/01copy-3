@@ -60,7 +60,7 @@ const App: React.FC = () => {
             - We render FormSection second.
             - Inside FormSection (see FormSection.tsx), we use flex-col-reverse to put Form above Text.
           */}
-          <div className="flex flex-col lg:flex-row items-center gap-4 lg:gap-8">
+          <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-32">
             
             {/* 
               Left Column (Video)

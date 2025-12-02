@@ -22,9 +22,6 @@
       fbq('init', '1016232387334785');
       fbq('track', 'PageView');
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=1016232387334785&ev=PageView&noscript=1"
-    /></noscript>
     <!-- End Meta Pixel Code -->
 
     <script>
@@ -50,6 +47,15 @@
             },
             backgroundImage: {
               'grid-pattern': "linear-gradient(to right, #222222 1px, transparent 1px), linear-gradient(to bottom, #222222 1px, transparent 1px)",
+            },
+            animation: {
+              'float': 'float 6s ease-in-out infinite',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-20px)' },
+              }
             }
           }
         }
@@ -93,6 +99,9 @@
 </script>
 </head>
   <body>
+    <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1016232387334785&ev=PageView&noscript=1"
+    /></noscript>
     <div id="root"></div>
   </body>
 </html>

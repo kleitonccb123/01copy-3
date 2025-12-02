@@ -6,7 +6,7 @@ interface MacBookFrameProps {
 
 export const MacBookFrame: React.FC<MacBookFrameProps> = ({ children }) => {
   return (
-    <div className="relative mx-auto max-w-[900px] w-full transform transition-all duration-500 hover:scale-[1.01]">
+    <div className="relative mx-auto max-w-[1100px] w-full transform transition-all duration-500 hover:scale-[1.01]">
       {/* Top Lid / Screen Bezel */}
       <div className="relative bg-[#0d0d0d] rounded-t-2xl border-[1px] border-[#333] shadow-2xl overflow-hidden aspect-video">
         {/* Camera Dot */}
